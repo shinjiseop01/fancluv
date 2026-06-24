@@ -1,0 +1,65 @@
+--- pages/index.tsx (Before - 문제 있음)
++++ pages/index.tsx (After - 수정됨)
+@@ -1,5 +1,6 @@
+ import Link from 'next/link'
++import { useRouter } from 'next/router'
+ import { Button } from '@/components/ui/Button'
+ 
+ export const getServerSideProps = () => {
+@@ -8,6 +9,7 @@
+   }
+ }
+ 
+ export default function Landing() {
++  const router = useRouter()
+   return (
+     <div className="min-h-screen bg-gradient-to-b from-primary-50 to-white">
+       <div className="max-w-4xl mx-auto px-4 py-20 md:py-32">
+@@ -20,9 +22,11 @@
+           <div className="bg-white p-8 rounded-lg shadow-md">
+             <h2 className="text-2xl font-bold mb-4">의견 공유</h2>
+             <p className="text-gray-600 mb-6">경기 리뷰, 구단 운영, 팬 커뮤니티에 대한 당신의 생각을 나누세요</p>
+-            <Link href="/login">
+-              <Button className="w-full">시작하기</Button>
+-            </Link>
++            <Button 
++              className="w-full" 
++              onClick={() => router.push('/login')}
++            >
++              시작하기
++            </Button>
+           </div>
+ 
+           <div className="bg-white p-8 rounded-lg shadow-md">
+@@ -30,9 +34,11 @@
+             <h2 className="text-2xl font-bold mb-4">설문 참여</h2>
+             <p className="text-gray-600 mb-6">구단의 중요한 결정에 투표하고 의견을 전달하세요</p>
+-            <Link href="/login">
+-              <Button className="w-full">참여하기</Button>
+-            </Link>
++            <Button 
++              className="w-full" 
++              onClick={() => router.push('/login')}
++            >
++              참여하기
++            </Button>
+           </div>
+         </div>
+ 
+@@ -40,9 +46,11 @@
+           <h2 className="text-3xl font-bold mb-4">아직 회원이 아니신가요?</h2>
+           <p className="text-lg mb-8">지금 가입하고 K리그 팬 커뮤니티에 참여하세요</p>
+-          <Link href="/signup">
+-            <Button variant="secondary" size="lg">
+-              회원가입
+-            </Button>
+-          </Link>
++          <Button 
++            variant="secondary" 
++            size="lg"
++            onClick={() => router.push('/signup')}
++          >
++            회원가입
++          </Button>
+         </div>
+       </div>

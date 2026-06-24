@@ -1,0 +1,324 @@
+
+> fancluv-pages@0.1.0 build
+> next build
+
+ ⚠ You are using a non-standard "NODE_ENV" value in your environment. This creates inconsistencies in the project and is strongly advised against. Read more: https://nextjs.org/docs/messages/non-standard-node-env
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'isrMemoryCacheSize', 'skipStaticGeneration' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.35
+
+   Linting and checking validity of types ...
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+   Generating static pages (0/11) ...
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/app/surveys". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/app". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+   Generating static pages (2/11) 
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/app/profile". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at x (/home/ubuntu/fancluv-pages/.next/server/pages/login.js:1:3824)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/login". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at x (/home/ubuntu/fancluv-pages/.next/server/pages/login.js:1:3824)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+   Generating static pages (5/11) 
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at m (/home/ubuntu/fancluv-pages/.next/server/pages/signup.js:1:3826)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at m (/home/ubuntu/fancluv-pages/.next/server/pages/signup.js:1:3826)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at o (/home/ubuntu/fancluv-pages/.next/server/pages/team-selection.js:1:2984)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/team-selection". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at o (/home/ubuntu/fancluv-pages/.next/server/pages/team-selection.js:1:2984)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at p (/home/ubuntu/fancluv-pages/.next/server/pages/app/create.js:1:4877)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/app/create". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at p (/home/ubuntu/fancluv-pages/.next/server/pages/app/create.js:1:4877)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at m (/home/ubuntu/fancluv-pages/.next/server/pages/app/opinion/[id].js:1:4969)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/app/opinion/[id]". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at p (/home/ubuntu/fancluv-pages/.next/server/chunks/163.js:1:10365)
+    at m (/home/ubuntu/fancluv-pages/.next/server/pages/app/opinion/[id].js:1:4969)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+   Generating static pages (8/11) 
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/404". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+
+Error occurred prerendering page "/500". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: <Html> should not be imported outside of pages/_document.
+Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+    at Q (/home/ubuntu/fancluv-pages/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+    at I (/home/ubuntu/fancluv-pages/.next/server/chunks/859.js:6:1263)
+    at renderWithHooks (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/home/ubuntu/fancluv-pages/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+ ✓ Generating static pages (11/11)
+
+> Export encountered errors on following paths:
+	/
+	/_error: /404
+	/_error: /500
+	/app
+	/app/create
+	/app/opinion/[id]
+	/app/profile
+	/app/surveys
+	/login
+	/signup
+	/team-selection
